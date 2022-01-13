@@ -1,0 +1,88 @@
+/* a melhor forma de organizar é essa, colcoando um documento style dentro do seu projeto */
+
+
+/* Estilos da página index */
+
+.cordetexto{
+    color:whitesmoke
+}
+
+.centralizar{
+text-align: center;
+ }
+ .justify{
+     text-align: justify;
+ }
+
+.container{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+
+}
+/* usando # ao invés de ponto pois meu alvo é um id e nõ uma classe */
+#menu li{
+    display:inline;
+    margin: 30px;
+}
+/* Estilizndo o texto dos meus itens da classe menu, que é uma lista de links. Assim eu retiro o underline deles. */
+#menu li a{
+    text-decoration: none;
+    color:whitesmoke;
+    font-size: 30px;
+}
+#menu li a:hover{
+    color:grey;
+}
+.p-30{
+padding: 30px;
+color: whitesmoke;
+}
+.br-50{
+
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+
+}
+.wh{
+    width: 300px;
+    height: 300px;
+}
+.tm-social{
+    width: 50px;
+    height: 50px;
+    align-items: center;
+    padding: 10px;
+}
+.mb-50{
+    margin-bottom: 50px;
+}
+/* estilos da pagina de contato */
+.ml-50{
+margin-left: 50px;
+}
+body{
+    background: #c7212f;
+}
+.ods4 {
+    width: 200px;
+    height: 180px;
+   }
+   
+   .ods4:hover {
+    width: 220px;
+    height: 200px;
+    transition: 0.2s;
+   }
+.video{
+    box-shadow: 13px 13px 8px rgba(48, 0, 0, 0.829);   
+}
+.containercontato{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+
+}
